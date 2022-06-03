@@ -1,0 +1,23 @@
+{
+  "name": "nicolasomarsilvera.github.io",
+  "version": "1.0.0",
+  "description": "\"# nicolasomarsilvera.github.io\"",
+  "main": "index.js",
+  "scripts": {
+    "resume": "resume"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasomarsilvera/nicolasomarsilvera.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasomarsilvera/nicolasomarsilvera.github.io/issues"
+  },
+  "homepage": "https://github.com/nicolasomarsilvera/nicolasomarsilvera.github.io#readme",
+  "dependencies": {
+    "resume-cli": "^3.0.7"
+  }
+}
