@@ -2,25 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nicolás Omar Silvera",
-    "label": "Programmer",
+    "label": "Programador",
     "image": "",
     "email": "nico.silvera.fi@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Nicolas hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Santa Rosa",
+      "countryCode": "AR",
+      "region": "La Pampa"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
       {
         "network": "SoundCloud",
         "username": "dandymusicnl",
@@ -28,66 +19,61 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "institution": "Universidad Nacional de La Pampa",
+      "url": "https://www.ing.unlpam.edu.ar/",
+      "area": "Analista Programador",
+      "studyType": "Pre Grado",
+      "startDate": "2014-03-01",
+      "endDate": "2019-07-30",
+      "score": "1.0",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Probabilidad y Estadística",
+        "Matemática Discreta",
+        "Estructura de Datos y Algoritmos",
+        "Programación Procedural",
+        "Programación Orientada a la web",
+        "Programación Orientada a Objetos",
+        "Programación Lógica y Funcional",
+        "Base de Datos",
+        "Otras"
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de La Pampa",
+      "url": "https://www.ing.unlpam.edu.ar/",
+      "area": "Ingeniería en Sistemas",
+      "studyType": "Grado",
+      "startDate": "2019-03-01",
+      "score": "1.0",
+      "courses": [
+        "Modelos y Simulación",
+        "Bases de Datos Distribuidas",
+        "Sistemas Distribuidos",
+        "Sistemas Inteligentes",
+        "Redes y Comunicaciones I y II",
+        "Gestión de Calidad y Auditoría",
+        "Ingeniería de Software I y II",
+        "Otras"
       ]
     }
   ],
-  "awards": [
+  "work": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Gobierno de la Pampa - MCyM - DSI",
+      "location": "La Pampa, Argentina",
+      "description": "Dirección de Servicios Informáticos, perteneciente al Ministerio de Conectividad y Modernización de la provincia de La Pampa",
+      "position": "Desarrollador",
+      "url": "https://conectividadymodernizacion.lapampa.gob.ar/",
+      "startDate": "2020-08-11",
+      "summary": "La Dirección de Servicios Informáticos, perteneciente al Ministerio de Conectividad y Modernización brinda cierto soporte a otras áreas del aparato gubernamental de la provincia de La Pampa, desarrollando aplicaciones que permitan optimizar los procesos burocráticos. Dentro de ésta organización, he ocupado las siguientes tareas:",
+      "highlights": [
+        "Relevamiento, Análisis y Diseño de aplicaciones",
+        "Desarrollo de aplicaciones web sobre GeneXus 16",
+        "Desarrollo de aplicaciones Laravel 8",
+        "Script de PHP para lectura de certificados"
+      ]
     }
   ],
   "skills": [
@@ -95,64 +81,94 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "PHP",
+        "Laravel",
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "React"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Data Bases",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "SQLServer",
+        "MySQL",
+        "MariaDB"
+      ]
+    },
+    {
+      "name": "Otros lenguajes / Herramientas",
+      "keywords": [
+        "Python",
+        "Java",
+        "GeneXus",
+        "GIT"
+      ]
+    },
+    {
+      "name": "Otros conocimientos",
+      "keywords": [
+        "API REST",
+        "Linux",
+        "Arduino Basics"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Spanish",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "language": "English",
+      "fluency": "Beginner"
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Detección de billetes argentinos",
+      "description": "Realización de una aplicación que pueda detectar el valor nominal de un billete, a partir de la cámara de un dispositivo móvil. Esta aplicación puede ser de utilidad, debido a que el relieve del peso argentino se desgasta rápidamente y puede dificultar su manipulación para las personas no videntes.",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Creación de la base de conocimiento.",
+        "Ajuste y entrenamiento de una red neuronal convolucional con Tensorflow.",
+        "Generación de aplicación móvil que utilice la red neuronal resultante."
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
+        "Python",
+        "Tensorflow",
+        "Inteligencia Artificial"
+      ],
+      "startDate": "2022-06-01",
+      "url": "",
+      "roles": [
+        "Researcher",
+        "Fullstack Developer"
+      ],
+      "entity": "Universidad Nacional de La Pampa",
+      "type": "application"
+    },
+    {
+      "name": "Sitio Web - Facultad de Ciencias Humanas",
+      "description": "Desarrollo de un nuevo sitio web para la Facultad de Ciencias Humanas de la UNLPam, compuesto por un panel de administración y una parte pública. Las acciones realizadas sobre el panel de administración impactan sobre el contenido disponible en la parte pública.",
+      "highlights": [
+        "Tecnologías: Laravel 8 - MariaDB - Bootstrap 4.",
+        "Desarrollo de módulos funcionales sobre el panel de administración.",
+        "Diseño e implementación de las vistas en la parte pública.",
+        "Despliegue y configuración sobre servidor Apache."
+      ],
+      "keywords": [
+        "Laravel",
+        "MariaDB",
         "Javascript"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2021-04-01",
+      "endDate": "2022-06-01",
+      "url": "http://www.humanas.unlpam.edu.ar/fchst/index.html",
       "roles": [
-        "Team lead",
-        "Designer"
+        "Fullstack Developer"
       ],
-      "entity": "Smoogle",
+      "entity": "Universidad Nacional de La Pampa",
       "type": "application"
     }
   ],
