@@ -7,8 +7,7 @@ pages:
   image: node:latest
   script:
     - npm i
-    - mkdir public/
-    - npm run resume export -- --theme elegant public/index.html
+    - npm run resume export -- --theme elegant 
   artifacts:
     paths:
       - public
