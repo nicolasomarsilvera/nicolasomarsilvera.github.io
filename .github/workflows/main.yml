@@ -10,8 +10,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          mkdir public/
-          npm run resume export -- --theme elegant public/index.html
+          npm run resume export -- --theme elegant index.html
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
