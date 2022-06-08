@@ -11,7 +11,7 @@ pages:
     - npm run resume export -- --theme elegant public/index.html
   artifacts:
     paths:
-      - public
+      - public/index.html
 
 pdf:
   stage: artifacts
