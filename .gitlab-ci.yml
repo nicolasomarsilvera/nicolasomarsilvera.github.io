@@ -8,7 +8,7 @@ pages:
   script:
     - npm i
     - mkdir public/
-    - npm run resume export -- --theme elegant public/index.html
+    - npm run resume serve -- --theme elegant public/index.html
   artifacts:
     paths:
       - index.html
