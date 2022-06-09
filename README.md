@@ -1,4 +1,4 @@
-# CV de Christian Rodriguez
+# CV de Nicolas Silvera
 
 Este repositorio lo uso para mantener mi propio CV usando GIT y [jsonresume](https://jsonresume.org/).
 
