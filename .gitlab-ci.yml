@@ -22,4 +22,4 @@ pdf:
     - RESUME_PUPPETEER_NO_SANDBOX=1 npm run export -- --theme elegant cv.pdf
   artifacts:
     paths:
-      - cv.pdf
+      - cv.html
